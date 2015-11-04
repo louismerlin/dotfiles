@@ -1,0 +1,83 @@
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = true
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+font = Monospace 9
+scrollback_lines = 1000
+search_wrap = true
+#icon_name = terminal
+#geometry = 640x480
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# $BROWSER is used by default
+browser = firefox
+
+# set size hints for the window
+#size_hints = false
+
+# emit escape sequences for other keys modified by Control
+#modify_other_keys = false
+
+[colors]
+# Base16 Atelier Dune
+# Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
+
+foreground      = #a6a28c
+foreground_bold = #a6a28c
+cursor          = #a6a28c
+background      = #292824
+
+# 16 color space
+color0  = #20201d
+color1  = #d73737
+color2  = #60ac39
+color3  = #cfb017
+color4  = #6684e1
+color5  = #b854d4
+color6  = #1fad83
+color7  = #a6a28c
+color8  = #7d7a68
+color9  = #d73737
+color10 = #60ac39
+color11 = #cfb017
+color12 = #6684e1
+color13 = #b854d4
+color14 = #1fad83
+color15 = #fefbec
+
+# 256 color space
+color16 = #b65611
+color17 = #d43552
+color18 = #292824
+color19 = #6e6b5e
+color20 = #999580
+color21 = #e8e4cf
+
+# 20% background transparency (requires a compositor)
+#background = rgba(63, 63, 63, 0.8)
+
+# if unset, will reverse foreground and background
+highlight = #2f2f2f
+
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 2.0
+
+#vim: ft=dosini cms=#%s
