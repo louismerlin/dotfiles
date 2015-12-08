@@ -126,6 +126,9 @@ super + p
 super + dollar
     ran
 
+super + r
+    regen
+
 # make sxhkd reload its configuration files:
 
 super + Escape

@@ -23,17 +23,20 @@ bspc monitor -d I II III IV V VI VII VIII IX X
 #bspc rule -a mplayer2 floating=on
 #bspc rule -a Kupfer.py focus=on
 #bspc rule -a Screenkey manage=off
-bspc rule -a vlc floating=on
+#bspc rule -a vlc floating=on
 
-feh --bg-scale Pictures/bond.png --force-aliasing
-compton -b
+feh --bg-scale --force-aliasing Pictures/sapin.jpg
+#.config/generateBG.sh &
+#compton -b
 xsetroot -cursor_name left_ptr
 
+setxkbmap fr
 unclutter &
 caffeine &
 panel &
-conky &
+#conky &
 xflux -l 46.5 -g 6.6
+mopidy &
 #thunderbird &
 #source ~/.config/bar/barrc | lemonbar -f "-misc-fontawesome-medium-r-normal--0-0-0-0-p-0-iso10646-1" -p -B "#DD2C3B4E" &
 #source ~/.config/bar/barrc | lemonbar -p &
