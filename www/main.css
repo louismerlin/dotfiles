@@ -1,0 +1,55 @@
+
+@font-face {
+   font-family: RalewayThin;
+   src: url(raleway_thin-webfont.woff);
+}
+
+html,
+body,
+h1,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+  font-family: RalewayThin;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+main {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-60%);
+}
+
+h1 {
+	font-size: 5em;
+}
+
+ul {
+	display: block;
+	margin: 0 auto;
+}
+
+li {
+	display: inline-block;
+	font-size: 2em;
+	line-height: 1.5;
+	list-style: none;
+	margin: 0 5px;
+}
+
+.subh {
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
